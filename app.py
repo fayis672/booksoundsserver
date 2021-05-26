@@ -1,15 +1,9 @@
 from flask import Flask, request, jsonify
 from firebase import Firebase
 
-# from flask_pymongo import PyMongo
-import urllib.parse
 
 app = Flask(__name__)
-# app.config[
-#     'MONGO_URI'] = 'mongodb+srv://fayisdev:--Fayisdevmangodb--@booksounds.b2ove.mongodb.net/booksounds?retryWrites=true&w=majority'
 
-# mango = PyMongo(app)
-# db_collection = mango.db.booksounds
 config = {
     "databaseURL" : "https://booksounds-5dc91-default-rtdb.firebaseio.com/",
     "apiKey": "AIzaSyCM8hHvn9wtcCTSMJHblHH04z6-bBF3LhM",
